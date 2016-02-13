@@ -16,7 +16,8 @@ if (!empty($_GET['crtag'])) {
   						'ipscore'=> $ipScore,
   						'est'    => $est,
   						'pst'    => $pst,
-  						'ip'     => $ip
+  						'ip'     => $ip,
+  						'lp'    =>  $_SERVER['SCRIPT_NAME']
   					);
   $filename = 'file_name.dat';					
   //at a later point, you can convert it back to array like
