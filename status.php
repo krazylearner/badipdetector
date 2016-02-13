@@ -27,6 +27,7 @@
 	<tr>
 		<th>TIME (EST)</th>
 		<th>TIME (PST)</th>
+		<th>Landing Page</th>
 		<th>IP</th>
 		<th>IP SCORE</th>
 		<th>CLICKS</th>
@@ -53,6 +54,7 @@
 			echo "<tr>";
 			echo "<td>".$value['est']."</td>";
 			echo "<td>".$value['pst']."</td>";
+			echo "<td>".$value['lp']."</td>";
 			echo "<td>".$value['ip']."</td>";
 			echo "<td>".$value['ipscore']."</td>";
 			echo "<td>".++$arr[$value['ip']]."</td>";
