@@ -1,6 +1,6 @@
 <html>
 <head>
-<meta http-equiv="refresh" content="4; url=<?php echo $_SERVER['SCRIPT_NAME'];  ?>" > 
+<meta http-equiv="refresh" content="7; url=<?php echo $_SERVER['SCRIPT_NAME'];  ?>" > 
 <style>
 	.demo {
 		border:1px solid #C0C0C0;
