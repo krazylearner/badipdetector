@@ -1,6 +1,6 @@
 <html>
 <head>
-<meta http-equiv="refresh" content="7; url=<?php echo $_SERVER['SCRIPT_NAME'];  ?>" > 
+<meta http-equiv="refresh" content="30; url=<?php echo $_SERVER['SCRIPT_NAME'];  ?>" > 
 <style>
 	.demo {
 		border:1px solid #C0C0C0;
@@ -21,7 +21,7 @@
 </head>
 <body>
 <table class="demo" align="center">
-	<caption><b>PPC IP MONITOR </b><?php echo "<a href=".$_SERVER['SCRIPT_NAME'].'?action=reset'.">(RESET)</a>";?></caption>
+	<caption><?php echo "<a href=".$_SERVER['SCRIPT_NAME'].">(REFRESH)</a>";?><b>PPC IP MONITOR </b><?php echo "<a href=".$_SERVER['SCRIPT_NAME'].'?action=reset'.">(RESET)</a>";?></caption>
 	
 	<thead>
 	<tr>
